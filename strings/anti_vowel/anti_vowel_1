@@ -1,0 +1,25 @@
+'''
+From the Codecademy Python track.
+
+Define a function called anti_vowel that takes one string, text, 
+as input and returns the text with all of the vowels removed.
+
+For example: anti_vowel("Hey You!") should return "Hy Y!".
+
+Don't count Y as a vowel.
+Make sure to remove lowercase and uppercase vowels.
+'''
+
+def anti_vowel(text):
+    result = ""
+    index = 0
+    while index < len(text):
+        char = text[index]
+        if char == "a" or char == "A" or char == "e" or char == "E" or char == "i" or char == "I" or char == "o" or char == "O" or char == "u" or char == "U":
+            index += 1
+        else: 
+            result = result + char
+            index += 1
+    return result
+            
+        
