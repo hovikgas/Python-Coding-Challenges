@@ -1,9 +1,9 @@
-H1 Python Coding Challenges
+# Python Coding Challenges
 
-H2 Organized by concept / data type
+## Organized by concept / data type
 
-H2 No skill levels indicated
+## No skill levels indicated
 
-H2 Doctests
+## Doctests
 
-H2 Contributing
+## Contributing
