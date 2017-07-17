@@ -10,14 +10,15 @@ None of the coding challenges are designated by a skill level, for several reaso
 * Skill levels can deter people from trying challenging problems
 * Skill levels can hurt your learning process if you give yourself a hard time for not yet knowing what you think you "should" know how to do
 
-## Doctests
+## Doctests included
 Doctests are included with each coding challenge, for several reasons:
 
 * Testing is an integral part of software development
 * As such, you'll want to demonstrate in an interview that you know you need to think about testing; even better if you can write a test
+* Doctests are a simple kind of test to write and are great for testing small functions.
 * Doctests provide example inputs and outputs to help you code your solution to the challenge
 
-## Cloning this repo
+## Complete the challenges on your own
 If you want to try to solve these coding challenges on your own, you could copy and paste each one into a new Python file on your computer. But there's a more efficient way to do this:
 
 __OPTION 1:__ Use the command line to navigate to the directory you want the Python-Coding-Challenges folder to be in (eg: navigate to your Desktop). Run the command `git clone https://github.com/allardbrain/Python-Coding-Challenges.git`. A new folder called `Python-Coding-Challenges` will appear in whichever directory you're in (eg: Desktop).
