@@ -1,26 +1,35 @@
 '''
-Write a funciton which takes in a string, and returns that string 
+Write a function called disemvowel() which takes in a string, and returns that string 
 with all the vowels removed. Treat "y" as a consonant.
 
-Test cases:
+>>> disemvowel("foobar")
+'fbr'
 
-disemvowel("foobar") == "fbr"
-disemvowel("ruby") == "rby"
-disemvowel("aeiou") == ""
+>>> disemvowel("ruby")
+'rby'
+
+>>> disemvowel("aeiou")
+''
 
 '''
 
-def disemvowel(string):
+def disemvowel(text):
     
     result = ""
+    vowels = "aeiouAEIOU"
 
-    for i in range(len(string)):
+    for i in range(len(text)):
 
-        if string[i] != 'a' and string[i] != 'e' and string[i] != 'i' and string[i] != 'o' and string[i] != 'u':
-            result += string[i]
+        if text[i] not in vowels:
+            result += text[i]
 
-    print result
+    # print result
     return result
 
 
 disemvowel("appalachia")
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
