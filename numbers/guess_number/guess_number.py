@@ -8,34 +8,33 @@ If they guess correctly, tell them so, and also tell them how many tries it took
 import random
 
 num = random.randint(1,100)
-tries = 0
+global tries 
 guessList = []
 
 def guess_number():
 
-    guess = input("The computer is thinking of a number between 1 and 100. Enter your guess here: ")
+    guess = int(input("The computer is thinking of a number between 1 and 100. Enter your guess here: "))
     guessList.append(guess)
 
-    while tries < 100:
+    while len(guessList) < 100:
 
         if guessList.count(guess) >= 2:
-            guess = input("Whoops, you already guessed that number! Guess again: ")
-            tries += 1
+            guess = int(input("Whoops, you already guessed that number! Guess again: "))
 
-        if guess < num:
-            guess = input("Darn, too low. Guess again: ")
+        elif guess < num:
+            guess = int(input("Darn, too low. Guess again: "))
             guessList.append(guess)
-            tries += 1
 
-        if guess > num:
-            guess = input("Shucks, too high. Guess again: ")
+        elif guess > num:
+            guess = int(input("Shucks, too high. Guess again: "))
             guessList.append(guess)
-            tries += 1
 
-        if guess == num: 
+        elif guess == num: 
+            guessList.append(guess)
             uniqueTries = str(len(set(guessList)))        
             print ("Congratulations, you got it in " + uniqueTries + " unique guesses!")
-            tries += 1
+            break
 
     
+guess_number()
     
