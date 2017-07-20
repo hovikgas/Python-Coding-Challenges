@@ -1,21 +1,32 @@
 '''
-From the Codecademy Python track.
-
-Write a function called digit_sum that takes a positive integer n as input 
+Write a function called digit_sum() that takes a positive integer n as input 
 and returns the sum of all that number's digits.
 
-For example: digit_sum(1234) should return 10 which is 1 + 2 + 3 + 4.
+>>> digit_sum(1234)
+10
 
-Assume that the number you are given will always be positive.
+>>> digit_sum(10)
+1
+
+>>> digit_sum(5)
+5
+
 '''
 
 def digit_sum(n):
+
     num_string = str(n)
-    temp = []
     n_sum = 0
+
     for each in num_string:
-        temp.append(int(each))
-    for num in temp:
-        n_sum += num
+        n_sum += int(each)
+
     return n_sum
-        
+
+
+digit_sum(1234)
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
