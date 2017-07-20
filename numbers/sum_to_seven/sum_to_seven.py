@@ -1,22 +1,36 @@
 '''
-Write a function 'lucky_sevens(nums)', which takes in a list of integers 
+Write a function  called lucky_sevens(nums) which takes in a list of integers 
 and returns true if any three consecutive elements sum to 7.
-Make sure your code currectly checks for the first and last elements of the array.
 
 Test cases:
 
-lucky_sevens?([2,1,5,1,0]) == true # => 1 + 5 + 1 == 7
-lucky_sevens?([0,-2,1,8]) == true # => -2 + 1 + 8 == 7
-lucky_sevens?([7,7,7,7]) == false
-lucky_sevens?([3,4,3,4]) == false
+>>> lucky_sevens([2,1,5,1,0])
+True
+
+>>> lucky_sevens([0,-2,1,8])
+True
+
+>>> lucky_sevens([7,7,7,7])
+False
+
+>>> lucky_sevens([3,4,3,4])
+False
 '''
 
 def lucky_sevens(nums):
 
-    for i in range(0, len(nums)):
+    for i in range(len(nums) - 2):
 
-        if sum(nums[i:i + 3]) == 7:  # i + 3 so that slicing ends after i + 2 (3 consecutive nums)
-            print True
-            return True   # Inside the loop, because True if ANY 3 consecutive nums sum to 7.
+        # i + 3 so that slicing ends after i + 2 (3 consecutive nums)
+        if sum(nums[i:i + 3]) == 7:  
+            return True
 
-    print False   # outside the loop
+    return False
+
+
+lucky_sevens([5, 3, 2, 2])
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
