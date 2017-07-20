@@ -1,19 +1,31 @@
 '''
-From the Codecademy Python track
+Write a function called remove_duplicates() that takes in a list of numbers.
+Return a new list that contains only single occurrences of the numbers in the list.
+If a number appears more than once, keep the first occurrence but remove any other duplicates.
 
-Write a function remove_duplicates that takes in a list 
-and removes elements of the list that are the same.
+>>> remove_duplicates([1,1,2,2])
+[1, 2]
 
-For example: remove_duplicates([1,1,2,2]) should return [1,2].
+>>> remove_duplicates([3, 5, 7])
+[3, 5, 7]
 
-Don't remove every occurrence, since you need to keep a single occurrence of a number.
-The order in which you present your output does not matter. So returning [1,2,3] is the same as returning [3,1,2].
-Do not modify the list you take as input! Instead, return a new list.
 '''
 
 def remove_duplicates(num_list):
+
     result = []
+
     for i in range(len(num_list)):
+
         if num_list[i] not in result:
             result.append(num_list[i])
+
     return result
+
+
+remove_duplicates([2, 4, 6, 2])
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
