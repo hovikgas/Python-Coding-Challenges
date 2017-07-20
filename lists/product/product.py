@@ -26,4 +26,4 @@ product([3, 4, 5])
 
 if __name__ == '__main__':
     import doctest
-    doctest.testmod
+    doctest.testmod()
