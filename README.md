@@ -1,7 +1,7 @@
 # Python Coding Challenges
 
 ## Organized by data type
-The coding challenges are written in Python 3 and are broken down into groups based on the primary data type or data structure they cover. Each coding challenge is stored in its own sub-directory, and has its own README with a step-by-step walkthrough of the solution and a link to a video tutorial.
+The coding challenges are written in Python 3 and are broken down into groups based on the primary data type or data structure they cover. Each coding challenge is stored in its own sub-directory, and has its own README with a step-by-step walkthrough of the solution(s) and a link to a video tutorial.
 
 ## No skill levels indicated
 None of the coding challenges are designated by a skill level, for several reasons:
@@ -25,17 +25,17 @@ If you want to try to solve these coding challenges on your own, you could copy 
 
 (If you can add the PC info to this section, please read the Contributing Guidelines below and submit a pull request!)
 
-Super easy GUI ("graphical user interface") version: Click the green Clone/Download button in the upper right corner of this page. Select "Download .ZIP". Once the download is complete, double-click on the .ZIP file (you may need to search for it in your Downloads folder). The Python-Coding-Challenges folder should appear.
+**Super easy GUI ("graphical user interface") version:** Click the green Clone/Download button in the upper right corner of this page. Select "Download ZIP". Once the download is complete, double-click on the .ZIP file (you may need to search for it in your Downloads folder). The Python-Coding-Challenges folder should appear.
 
-Also-easy step-by-step instructions for cloning in your Terminal:
+**Also-easy step-by-step instructions for cloning in your Terminal:**
 
 1. Open your Terminal. 
-- If you don't know what this is or how to find it, press COMMAND-<spacebar> and your Spotlight will open up. Type the word "Terminal" into the search bar that appears, and then double-click on the Terminal application when it appears. This will open the Terminal for you. You should drag the Terminal icon to your dock, so you can access it more easily next time.
+- If you don't know what this is or how to find it, press the `COMMAND` key and the `spacebar` key at the same time, and your Spotlight will open up. Type the word "Terminal" into the search bar that appears, and then double-click on the Terminal icon. This will open the Terminal for you. You should drag the Terminal icon to your dock, so you can access it more easily next time.
 
 2. Once in the Terminal, use the command line to navigate to the directory you want the Python-Coding-Challenges folder to be in.
 - If you aren't sure how to do this, let's just store it in your Desktop. Navigate to the Desktop directory while in your Terminal by typing in `cd Desktop` and pressing the `RETURN` or `ENTER` key. This means "change directory", and you are supplying the name of the directory you want to switch to.
 - You can verify that you are truly in the intended directory by typing the command `pwd` and pressing the `RETURN` or `ENTER` key. This stands for "print working directory". You should see a file path that ends with "Desktop", something like this: `/Users/<your username>/Desktop`.
-- Another way you can verify you are truly in the intended directory is by looking at the text that appears on the left side of each new line in the Terminal. Mine looks like this: `MacBook-Air:Desktop allardbrain$`. The general format yours should have is something like this: `<computer identifier>:Desktop <username>$`.
+- Another way you can verify you are truly in the intended directory is by looking at the text that appears on the left side of each new line in the Terminal. Mine looks like this: `MacBook-Air:Desktop allardbrain$`. The general format yours probably has is something like this: `<computer identifier>:Desktop <username>$`.
 
 3. Copy and paste the following code into your Terminal and press `RETURN` or `ENTER`: `git clone https://github.com/allardbrain/Python-Coding-Challenges.git`. A new folder called `Python-Coding-Challenges` will appear in whichever directory you're in (eg: in the Desktop).
 
