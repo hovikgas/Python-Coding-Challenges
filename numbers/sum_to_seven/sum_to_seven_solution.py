@@ -19,8 +19,13 @@ False
 
 def lucky_sevens(nums):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    for i in range(len(nums) - 2):
+
+        # i + 3 so that slicing ends after i + 2 (3 consecutive nums)
+        if sum(nums[i:i + 3]) == 7:  
+            return True
+
+    return False
 
 
 lucky_sevens([5, 3, 2, 2])

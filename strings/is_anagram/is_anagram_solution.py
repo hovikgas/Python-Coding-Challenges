@@ -12,8 +12,13 @@ True
 
 def is_anagram(text1, text2):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    sorted_text1 = sorted(text1)
+    sorted_text2 = sorted(text2)
+    
+    if sorted_text1 == sorted_text2:
+        return True
+    else:
+        return False
 
 
 is_anagram("blue", "black")

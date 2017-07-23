@@ -13,8 +13,16 @@ False
 
 def check_unique(text):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    unique_chars = []
+    
+    for char in text:
+
+        if char in unique_chars:
+            return False
+        else:
+            unique_chars.append(char)
+
+    return True
 
 
 check_unique("unicorn")

@@ -16,8 +16,14 @@ True
 
 def is_prime(x):
     
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    if x < 2:
+        return False
+        
+    for n in range(2, x - 1):
+        if x % n == 0:
+            return False
+
+    return True
 
 is_prime(3)
 

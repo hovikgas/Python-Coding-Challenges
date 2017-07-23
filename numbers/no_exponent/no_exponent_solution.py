@@ -23,8 +23,28 @@ to the power of 'exp' without using the exponent operator (**).
 
 def no_exponent(num, exp):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    value = 1;
+
+    if num == 0:
+        return 0
+
+    elif num == 1:
+        return num
+
+    else:
+
+        if exp == 0:
+            return 1
+
+        elif exp == 1:
+            return num
+
+        else:
+
+            for i in range(0, exp):
+                value *= num
+
+            return value
 
 
 

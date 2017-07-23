@@ -14,8 +14,12 @@ You may get a string containing special characters (for example, !, @, or #).
 
 def reverse(text):
     
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    reversed_str = ""
+
+    for i in range((len(text) - 1), -1, -1):
+        reversed_str += text[i]
+
+    return reversed_str
 
 
 reverse("Hello, world!")

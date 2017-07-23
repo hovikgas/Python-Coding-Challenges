@@ -12,8 +12,14 @@ Do not use the list object's .reverse() method.
 
 def reverse_array(my_list):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    reversed_list = [];
+
+    for i in range((len(my_list) - 1), -1, -1):
+        reversed_list.append(my_list[i])
+
+    return reversed_list
+
+reverse_array([1, 2, 3, 4, 5]);
 
 
 if __name__ == '__main__':

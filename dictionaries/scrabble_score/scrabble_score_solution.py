@@ -38,8 +38,13 @@ score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
          
 def scrabble_score(word):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    word_score = 0
+    word = word.lower()
+    
+    for char in word:
+        word_score += score[char]
+
+    return word_score
 
 
 

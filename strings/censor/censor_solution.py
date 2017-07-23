@@ -14,8 +14,16 @@ The number of asterisks you put should correspond to the number of letters in th
 
 def censor(text, word):
     
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    stars = "*" * len(word)
+    split_words = text.split()
+    
+    for each in split_words:
+        if each == word:
+            split_words[split_words.index(each)] = stars
+            
+    censored_text = " ".join(split_words)
+
+    return censored_text
 
 
 censor("It's peach season", "peach")

@@ -13,8 +13,14 @@ Assume zero is an even number.
 
 def purify(numbers):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    result = []
+
+    for i in range(len(numbers)):
+
+        if numbers[i] % 2 == 0:
+            result.append(numbers[i])
+
+    return result
 
 
 purify([5, 10, 15, 20, 25, 30])

@@ -15,8 +15,16 @@ with all the vowels removed. Treat "y" as a consonant.
 
 def disemvowel(text):
     
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    result = ""
+    vowels = "aeiouAEIOU"
+
+    for i in range(len(text)):
+
+        if text[i] not in vowels:
+            result += text[i]
+
+    # print result
+    return result
 
 
 disemvowel("appalachia")

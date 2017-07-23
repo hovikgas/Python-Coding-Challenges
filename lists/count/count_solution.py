@@ -11,8 +11,13 @@ Return an integer representing the number of times the item occurs in the sequen
 '''
 def count(sequence, item):
     
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    result = 0
+        
+    for i in sequence:
+        if i == item:
+            result += 1
+
+    return result
 
 
 count(["hello", "poodle", "chocolate"], "chocolate")

@@ -21,8 +21,16 @@ less than it. Example:
 
 def factorial(x):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    product = 1
+
+    if x == 1 or x == 0:
+        return product
+
+    while x > 1:
+        product *= x
+        x -= 1
+
+    return product
 
 
 factorial(3)

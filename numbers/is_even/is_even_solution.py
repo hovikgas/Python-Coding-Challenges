@@ -12,8 +12,12 @@ False
 
 def is_even(x):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    if x % 2 == 0:
+        return True
+
+    else: 
+        return False
+
 
 is_even(10)
 

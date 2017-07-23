@@ -13,8 +13,16 @@ contained in the two strings.
 
 def common_chars(text1, text2):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    common_chars = []
+
+    for i in range(len(text1)):
+
+        for j in range(len(text2)):
+
+            if text1[i] == text2[j] and text1[i] not in common_chars:    
+                common_chars.append(text1[i])
+        
+    return common_chars
 
 
 common_chars("stem", "pick")

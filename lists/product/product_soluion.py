@@ -13,8 +13,15 @@ Assume the list has at least one element in it.
 
 def product(integers):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    result = 1
+
+    for i in range(len(integers)):
+        result *= integers[i]
+
+    return result
+
+
+product([3, 4, 5])
 
 
 if __name__ == '__main__':

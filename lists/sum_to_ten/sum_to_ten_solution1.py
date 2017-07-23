@@ -10,8 +10,16 @@ True
 
 def pairs_of_ten(intlist):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    foundPairs = []
+
+    for i in range(len(intlist)):
+
+        for j in range(i + 1, len(intlist)):
+
+            if intlist[i] + intlist[j] == 10:
+                foundPairs.append((intlist[i], intlist[j]))
+
+    return set(foundPairs)
 
 
 pairs_of_ten([10, 1, 0, 9])

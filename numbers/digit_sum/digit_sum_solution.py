@@ -15,8 +15,13 @@ and returns the sum of all that number's digits.
 
 def digit_sum(n):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    num_string = str(n)
+    n_sum = 0
+
+    for each in num_string:
+        n_sum += int(each)
+
+    return n_sum
 
 
 digit_sum(1234)

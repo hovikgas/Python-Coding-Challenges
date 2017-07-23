@@ -15,30 +15,8 @@ import re
 
 def only_letters(text):
 
-    lower_case = re.compile('^[a-z]$')
-
-    word_list = text.split(' ')
-    gather_word_letters = []
-    final_word_list = []
-
-    # Remove non-alphabetic characters
-    for word in word_list:
-
-        for char in word:
-
-            match = lower_case.match(char)
-
-            if match:
-                gather_word_letters.append(char)
-
-        final_word_list.append(gather_word_letters)
-        gather_word_letters = []
-
-    # Sort the list of alpha-only words and return the first word
-    sorted_final_word_list = sorted(final_word_list)
-    first_word = "".join(sorted_final_word_list[0])
-
-    return first_word
+    # Replace the line below with all your code. Remember to return the requested data.
+    pass
 
 
 only_letters("c$c. %ba! bb#?")

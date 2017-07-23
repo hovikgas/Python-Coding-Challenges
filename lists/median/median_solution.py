@@ -15,8 +15,17 @@ If the list contains an even number of items, the median is the average of the m
 
 def median(num_list):
     
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    sorted_list = sorted(num_list)
+    length_sorted_list = len(sorted_list)
+
+    if length_sorted_list % 2 == 0:
+
+        # Use // for division or else you get an error for indexing a float
+        # See: https://stackoverflow.com/questions/1282945/python-integer-division-yields-float
+        return (sorted_list[(length_sorted_list // 2) - 1] + sorted_list[length_sorted_list // 2]) / 2 
+    
+    else:   
+        return sorted_list[(length_sorted_list // 2)]  
 
 
 median([5, 6, 7])

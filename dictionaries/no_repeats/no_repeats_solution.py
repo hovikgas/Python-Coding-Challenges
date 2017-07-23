@@ -24,8 +24,27 @@ capitalization.
 
 def no_repeats(text):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    text = text.lower()
+    char_counts = {}
+
+    if text == "":
+        return "No characters in an empty string."
+    
+    # First loop through 'text' sets up dictionary
+    for char in text:
+
+        if char not in char_counts:
+            char_counts[char] = 1
+        else:
+            char_counts[char] += 1
+    
+    # Second loop through 'text' finds first char with only one occurrence
+    for char in text:
+
+        if char_counts[char] == 1:
+            return char
+
+    return "No unique characters found."
 
 
 no_repeats("Four score and seven years ago")

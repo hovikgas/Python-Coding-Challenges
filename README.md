@@ -37,7 +37,7 @@ If you want to try to solve these coding challenges on your own, you could copy 
 - You can verify that you are truly in the intended directory by typing the command `pwd` and pressing the `RETURN` or `ENTER` key. This stands for "print working directory". You should see a file path that ends with "Desktop", something like this: `/Users/<your username>/Desktop`.
 - Another way you can verify you are truly in the intended directory is by looking at the text that appears on the left side of each new line in the Terminal. Mine looks like this: `MacBook-Air:Desktop allardbrain$`. The general format yours probably has is something like this: `<computer identifier>:Desktop <username>$`.
 
-3. Copy and paste the following code into your Terminal and press `RETURN` or `ENTER`: `git clone https://github.com/allardbrain/Python-Coding-Challenges.git`. A new folder called `Python-Coding-Challenges` will appear in whichever directory you're in (eg: in the Desktop).
+3. Copy and paste the following code into your Terminal and then press `RETURN` or `ENTER`: `git clone https://github.com/allardbrain/Python-Coding-Challenges.git`. A new folder called `Python-Coding-Challenges` will appear in whichever directory you're in (eg: in the Desktop).
 
 4. To verify that the clone worked, you can either minimize your Terminal & browser windows so you can see the new folder on your Desktop (double-click it to open it), or you can run the command `cd Python-Coding-Challenges` then press `RETURN` or `ENTER`. Your Terminal prompt will now look something like this: `MacBook-Air:Python_Coding_Challenges allardbrain$` and if you run `pwd` again, you'll see something like this: `/Users/allardbrain/Desktop/Python_Coding_Challenges`.
 
@@ -45,11 +45,13 @@ If you want to try to solve these coding challenges on your own, you could copy 
 
 (If you can add the PC info to this section, please read the Contributing Guidelines below and submit a pull request!)
 
-5. Open up your text editor or IDE. 
+5. Open up your text editor. 
 - If you aren't sure what a text editor is or whether or not you have one, see Step 1 about opening the Spotlight and search for "TextWrangler", which is pre-installed on newer Macs.
-- If you don't have TextWrangler, you can download Sublime for free. Another popular text editor is Atom, which is also available for download.
+- If you don't have TextWrangler, you can [download Sublime](https://www.sublimetext.com/3) or [download Atom](https://atom.io/) for free.
 
-6. More steps coming soon.
+6. Once in your text editor, open the file for a coding challenge you want to work on. 
+- In all 3 of the text editors mentioned above, you can do this by clicking on the `File` menu at the top of the screen, and scrolling down to `Open...`. You can also press `COMMAND + O`.
+- A new window will appear where you can browse your files and select the one you want to work on.
 
 
 ## Website Coming Soon!

@@ -15,8 +15,14 @@ and returns the sum of the odd elements.
 
 def oddball_sum(nums):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    result = 0
+
+    for i in range(len(nums)):
+
+        if nums[i] % 2 == 1:
+            result += nums[i]
+ 
+    return result
 
 
 oddball_sum([17, 15, 0])

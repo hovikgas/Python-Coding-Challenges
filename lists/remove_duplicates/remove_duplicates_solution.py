@@ -13,8 +13,14 @@ If a number appears more than once, keep the first occurrence but remove any oth
 
 def remove_duplicates(num_list):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    result = []
+
+    for i in range(len(num_list)):
+
+        if num_list[i] not in result:
+            result.append(num_list[i])
+
+    return result
 
 
 remove_duplicates([2, 4, 6, 2])

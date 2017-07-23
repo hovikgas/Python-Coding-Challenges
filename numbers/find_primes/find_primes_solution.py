@@ -9,8 +9,21 @@ and returns a list of all the prime numbers between 2 and n, inclusive.
 
 def find_primes(n):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    primes = []
+
+    for i in range(2, n + 1):
+
+        prime = True 
+
+        for j in range(2, i - 1):  
+
+            if (i % j == 0):
+                prime = False
+
+        if prime:
+            primes.append(i)
+
+    return primes
 
 
 find_primes(1000)

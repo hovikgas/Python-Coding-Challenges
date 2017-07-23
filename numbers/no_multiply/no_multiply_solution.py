@@ -23,8 +23,12 @@ Return the product of these two numbers without using multiplication (the * oper
 
 def no_multiply(int1, int2):
 
-    # Replace the line below with all your code. Remember to return the requested data.
-    pass
+    result = 0
+
+    for each in range(int2):
+        result += int1
+
+    return result
 
 
 no_multiply(2, 7)
