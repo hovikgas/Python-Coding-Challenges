@@ -50,9 +50,16 @@ If you want to try to solve these coding challenges on your own, you could copy 
 - If you don't have TextWrangler, you can [download Sublime](https://www.sublimetext.com/3) or [download Atom](https://atom.io/) for free.
 
 6. Once in your text editor, open the file for a coding challenge you want to work on. 
-- In all 3 of the text editors mentioned above, you can do this by clicking on the `File` menu at the top of the screen, and scrolling down to `Open...`. You can also press `COMMAND + O`.
+- In all 3 of the text editors mentioned above, you can do this by clicking on the `File` menu at the top of the screen, and scrolling down to `Open...`. Alternatively, you can also press `COMMAND + O`.
 - A new window will appear where you can browse your files and select the one you want to work on.
 
+7. Add your code and save the file.
+
+8. To run the file, return to your Terminal. Make sure you're in the same directory that the file you saved is in. Here's an example for the `count_letters.py` file: `Desktop > Python-Coding-Challenges > dictionaries > count_letters`. If you're not in the directory you need to be in, run the `pwd` command to see where you are and `cd <directory name>` to move around the file tree. If you need to, you can type `cd ..` to move back a level.
+
+9. Type in `python <filename>`. Example: `python count_letters.py`. You may need to type the specific version of Python you're using, depending on which version is on your computer: `python3 count_letters.py`.
+
+10. Because (almost) every coding challenge has doctests, if your code does not pass the test cases a failure report will print to the Terminal. Check the expected output against the actual output, and tweak your code to make the test pass. Note that print statements (commonly used for de-bugging) will cause your tests to fail. If all the doctests pass, the tests will "succeed silently", meaning nothing will print to the Terminal.
 
 ## Website Coming Soon!
 I'm working on a very simple website that will allow you to filter these coding challenges further, to allow for more efficient practice. For example, you'll be able to filter across data types & data structures for:
@@ -67,4 +74,4 @@ I'm working on a very simple website that will allow you to filter these coding 
 So, if you wanted more practice with nested loops, you'd be able to access all the challenges that use nested loops whether the primary data type was a dictionary, a list, a string, etc.
 
 ## Contributing guidelines
-I'd love your help building this collection of Python coding challenges! More info coming soon.
+I'd love your help building this collection of Python coding challenges! Please email allardbrain (at) gmail (dot) com
