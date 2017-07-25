@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called no_exponent() that takes in 2 integers, 'num' and 'exp', as arguments.
 Both 'num' and 'exp' may be assumed to be positive. Return an integer value of 'num' raised 
 to the power of 'exp' without using the exponent operator (**).

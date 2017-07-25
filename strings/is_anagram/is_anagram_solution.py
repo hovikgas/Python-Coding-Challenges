@@ -1,4 +1,7 @@
-'''Write a function called is_anagram() that takes in 2 strings as arguments.
+'''
+Solution by GitHub user @allardbrain in July 2017.
+
+Write a function called is_anagram() that takes in 2 strings as arguments.
 Return True if the strings are anagrams of each other (ie: they contain the same
 letters and no extra letters). Otherwise, return false.
 

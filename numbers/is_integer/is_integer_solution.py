@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Define a function is_int() that takes a number, x, as an input.
 Have it return True if the number is an integer (as defined below) and False otherwise.
 

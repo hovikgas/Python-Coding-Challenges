@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called int_frequency() that takes a list of positive integers as
 an argument and returns the integer that appears the most frequently in the list.
 If there are multiple integers that share the same high frequency, return any one

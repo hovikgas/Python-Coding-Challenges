@@ -1,4 +1,6 @@
 ''' 
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function that takes in a list and returns a new, reversed version of the list.
 Do not use the list object's .reverse() method.
 

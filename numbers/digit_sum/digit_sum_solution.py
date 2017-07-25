@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called digit_sum() that takes a positive integer n as input 
 and returns the sum of all that number's digits.
 

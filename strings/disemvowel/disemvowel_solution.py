@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called disemvowel() which takes in a string, and returns that string 
 with all the vowels removed. Treat "y" as a consonant.
 

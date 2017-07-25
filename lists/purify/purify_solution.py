@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Define a function called purify that takes in a list of numbers. 
 Return a new list that contains only the even numbers from the input list.
 Assume zero is an even number.

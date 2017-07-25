@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called no_repeats() that takes in a string argument
 and returns the first character in the string that does not have a 
 duplicate elsewhere in the string. Assume there are only letters in 

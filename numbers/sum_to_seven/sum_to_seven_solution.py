@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function  called lucky_sevens(nums) which takes in a list of integers 
 and returns true if any three consecutive elements sum to 7.
 
@@ -15,6 +17,7 @@ False
 
 >>> lucky_sevens([3,4,3,4])
 False
+
 '''
 
 def lucky_sevens(nums):

@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called check_unique() that takes in a string argument called 'text'
 and returns True if each character in the string argument is unique and False if there
 are character duplicates.

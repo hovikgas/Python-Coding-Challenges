@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called remove_duplicates() that takes in a list of numbers.
 Return a new list that contains only single occurrences of the numbers in the list.
 If a number appears more than once, keep the first occurrence but remove any other duplicates.

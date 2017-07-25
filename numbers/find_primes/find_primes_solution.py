@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called find_primes() that takes an integer argument, n,
 and returns a list of all the prime numbers between 2 and n, inclusive.
 

@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Define a function called product() that takes a list of integers as input 
 and returns the product of all of the elements in the list as an integer.
 Assume the list has at least one element in it.

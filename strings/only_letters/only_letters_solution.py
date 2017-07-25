@@ -1,4 +1,7 @@
-'''Write a function called only_letters() that takes in a string of words separated by spaces.
+'''
+Solution by GitHub user @allardbrain in July 2017.
+
+Write a function called only_letters() that takes in a string of words separated by spaces.
 Assume the words have both lower- and uppercase letters, numbers and punctuation in them. 
 Strip out all nonalphabetic characters, then sort the words in alphabetical order (ignore 
 capitalization) and return the first word. 

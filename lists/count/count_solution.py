@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Define a function called count() that has two arguments, called sequence (a list) and item.
 The item you input may be an integer, string or float.
 Return an integer representing the number of times the item occurs in the sequence.
@@ -8,6 +10,7 @@ Return an integer representing the number of times the item occurs in the sequen
 
 >>> count(["boat", "kayak", 1, 3, "boat"], "boat")
 2
+
 '''
 def count(sequence, item):
     

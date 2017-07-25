@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function count_chars() that takes in a string argument, and returns a dictionary containing
 the characters in the string, along with the number of times each character appears in the string.
 

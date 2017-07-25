@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called median() that takes a list of numbers 
 as an argument and returns the median value of the list.
 

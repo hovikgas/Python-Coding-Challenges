@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called no_multiply() that takes in 2 integers as arguments.
 Return the product of these two numbers without using multiplication (the * operator).
 

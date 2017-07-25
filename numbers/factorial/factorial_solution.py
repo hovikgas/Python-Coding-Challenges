@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Define a function factorial() that takes an integer x as input
 and returns the factorial of x. A factorial of a number is 
 calculated as a number multiplied by all the numbers that are 

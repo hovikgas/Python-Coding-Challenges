@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called censor() that takes two strings, text (a multi-word string) and word (a one-word
 string), as input. It should return the text with the word you specified replaced with asterisks. 
 Assume your input strings will only contain lowercase letters.

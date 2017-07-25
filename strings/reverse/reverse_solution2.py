@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called reverse() that takes in a string and returns that string in reverse.
 
 You may not use reversed or [::-1].

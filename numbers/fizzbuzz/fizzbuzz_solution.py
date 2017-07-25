@@ -1,4 +1,7 @@
-''' Write a funciton called fizzbuzz() which takes a number (n) as an argument and returns a list. 
+'''
+Solution by GitHub user @allardbrain in July 2017.
+
+Write a funciton called fizzbuzz() which takes a number (n) as an argument and returns a list. 
 For each integer between 1 and n, if the integer is divisible by 3, append "Fizz" 
 to the result list. If the integer is divisible by 5, append "Buzz" to the result list. 
 If the integer is divisible by both 3 and 5, append "FizzBuzz" to the result list. If the integer

@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called oddball_sum() that takes in a list of integers 
 and returns the sum of the odd elements.
 

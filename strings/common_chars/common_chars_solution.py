@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Write a function called common_chars() that takes in two lowercase strings,
 text1 and text2, as arguments. Return a list of the common characters
 contained in the two strings.

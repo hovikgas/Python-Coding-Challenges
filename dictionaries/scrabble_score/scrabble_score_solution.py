@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 From the Codecademy Python track.
 
 Scrabble is a game where players get points by spelling words. 

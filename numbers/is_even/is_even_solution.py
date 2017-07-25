@@ -1,4 +1,6 @@
 '''
+Solution by GitHub user @allardbrain in July 2017.
+
 Define a function is_even() that will take a number, x, as input.
 If x is even, return True. Otherwise, return False.
 
