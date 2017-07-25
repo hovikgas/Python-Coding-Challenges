@@ -1,6 +1,16 @@
 ## Counting character frequencies in a string
 
-### Explanation of Solution 1: `count_letters_solution.py`
+### Concepts covered
+* Defining a function
+* Adding keys to dictionaries
+* Comparing a character to dictionary keys
+* Incrementing values in dictionaries
+* Using the `range()` function
+* For-loops
+* Indexing into a string
+* Returning a dictionary
+
+### Explanation of `count_letters_solution.py`
 
 > Remember: If you run the solution file in your Terminal, the embedded doctests will "succeed silently" and there will be no output to the Terminal. You can add print statements throughout the code to better understand what is happening. But, if you add print statements, the doctests will fail and you'll see a failure report print to the Terminal.
 
