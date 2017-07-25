@@ -13,7 +13,7 @@
 * Returning a dictionary key with the highest value
 * Returning None
 
-### Explanation of `int_freq_solution.py`
+### Explanation of `count_letters_solution.py`
 
 > Remember: If you run the solution file in your Terminal, the embedded doctests will "succeed silently" and there will be no output to the Terminal. You can add print statements throughout the code to better understand what is happening. But, if you add print statements, the doctests will fail and you'll see a failure report print to the Terminal.
 
@@ -21,9 +21,9 @@
 
 **Line 22:** Initialize a variable called `int_freq_dict`, which is bound to an empty dictionary. We'll use this dictionary later to store the integers in `int_list` as keys, and the number of times each integer appears in `int_list` will be each key's associated value.
 
-**Line 25:** A feature of Python is that a list with at least one item in it evaluates to True, and an empty list evaluates to False. Here, we are only running the code that follows if the list has at least one item in it. Scroll down to Line 50 for the else statement that is paired with the if statement on Line 25.
+**Line 25:** A feature of Python is that a list with at least one item in it evaluates to True, and an empty list evaluates to False. Here, we are only running the code that follows if the list has at least one item in it (in other words, "if the list is True"). Scroll down to Line 50 for the else statement that is paired with the if statement on Line 25.
 
-**Line 27:** Create a for-loop whose iterator is the variable `i`. The `len()` method returns the length of the object passed to it as an argument. In this case, the argument is `intlist`. So, it'll return a number that describes how many items are in the list. This returned number then becomes the argument that is passed into the `range()` function. The `range()` function [returns a list of integers](http://pythoncentral.io/pythons-range-function-explained/), starting at zero by default. The list contains as many integers as are passed in as the argument. For example, `range(3)` would return this list: `[0, 1, 2]` which has 3 items within it. The iterator `i` will begin in the for-loop as the value at the 0th element of the list which was returned by the range function (0, in our example), and its index number will increment by 1 each time through the loop. 
+**Line 27:** Create a for-loop whose iterator is the variable `i`. The `len()` method returns the length of the object passed to it as an argument. In this case, the argument is `intlist`. So, it'll return a number that describes how many items are in the list. This returned number then becomes the argument that is passed into the `range()` function. The `range()` function [returns a list of integers](http://pythoncentral.io/pythons-range-function-explained/), starting at zero by default. The list contains as many integers as are passed in for the argument. For example, `range(3)` would return this list: `[0, 1, 2]` which has 3 items within it. The iterator `i` will begin in the for-loop as the value at the 0th element of the list which was returned by the range function (0, in our example), and its index number will increment by 1 each time through the loop. 
 
 Because we passed in the length of `intlist` as the argument to the `range()` function, the `range()` function will only return a list that has as many items in it as there are items in `intlist`. This ensures that we'll access every item in `intlist`, and it also ensures that we won't try to access an index beyond the length of the string. (If we tried to do that, we'd get an IndexError.)
 
@@ -31,9 +31,9 @@ Because we passed in the length of `intlist` as the argument to the `range()` fu
 
 **Lines 32-33:** If the integer currently at the index `intlist[i]` is already a key in the `int_freq_dict` dictionary, increment its associated value by 1. Because this is the last line of executable code within the for-loop, Python will automatically increment the index of `intlist` by 1, and the if/else comparison will be run on the next integer in `intlist`.
 
-**Lines 35-36:** Now that the for-loop has cataloged the frequency of each integer in `int_list` into the `int_freq_dict` dictionary, we need to isolate the integer that appears most frequently so we can return that integer later. We can do this by isolating the key-value pair that has the highest value. This will represent the key containing the integer that appeard most often, and the value containing the number of times the integer appears in `intlist`. 
+**Lines 35-36:** Now that the for-loop has cataloged the frequency of each integer in `int_list` into the `int_freq_dict` dictionary, we need to isolate the integer that appears most frequently so we can return that integer later. We can do this by isolating the key-value pair that has the highest value. This will represent the key containing the integer that appeared most often, and the value containing the number of times the integer appears in `intlist`. 
 
-We can do this by calling the `.items()` dictionary method on the `int_freq_dict` dictionary. The `.items()` method returns a list of tuples, and inside each tuple is a key-value pair from the dictionary. The key is stored in the 0th index of the tuple (eg: `my_tuple[0]`) and the value is stored in the 1st index of the tuple (eg: `my_tuple[1]`). We're saving this output list to a variable called `freq_data`.
+We can do this by calling the `.items()` dictionary method on the `int_freq_dict` dictionary. The `.items()` method [returns a list of tuples](https://www.tutorialspoint.com/python/dictionary_items.htm), and inside each tuple is a key-value pair from the dictionary. The key is stored in the 0th index of the tuple (eg: `my_tuple[0]`) and the value is stored in the 1st index of the tuple (eg: `my_tuple[1]`). We're saving this output list to a variable called `freq_data`.
 
 **Lines 38-39:** Initialize two variables that we'll use to store values temporarily as we loop through `freq_data` in the next bit of code. Both the `temp_freq` and `temp_num` variables are initialized to zero so that when we compare the positive numbers we'll access in `freq_data`, the zero is always less than whatever number we're accessing.
 
